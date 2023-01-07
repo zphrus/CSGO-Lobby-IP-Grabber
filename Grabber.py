@@ -25,7 +25,7 @@ local_ip = socket.gethostbyname(socket.gethostname())
 
 # Create a pyshark capture object
 print("Creating capture object")
-capture = pyshark.LiveCapture(interface='IPVanish')
+capture = pyshark.LiveCapture(interface='#YOUR INTERFACE HERE')
 
 print("Sniffing packets...")
 
